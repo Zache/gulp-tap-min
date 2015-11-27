@@ -30,7 +30,7 @@ function report(out, verbose, test) {
 		return !assert.ok || verbose;
 	})
 	.forEach(function(assert) {
-		format(out, assert.ok ? chalk.green('ok') : chalk.red('not ok') , assert.id, assert.name);
+		format(out, assert.ok ? chalk.green('ok') : chalk.red('not ok') , chalk.white(assert.id), chalk.white(assert.name));
 		format(out, '	---');
 
 		Object.keys(assert)
@@ -38,7 +38,7 @@ function report(out, verbose, test) {
 			return skipped.indexOf(key) === -1;
 		})
 		.forEach(function(key) {
-			format(out, '	', chalk.gray(key + ':'), assert[key]);
+			format(out, '	', chalk.gray(key + ':'), chalk.white(assert[key]));
 		});
 
 		format(out, '	...');
