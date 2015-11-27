@@ -39,6 +39,12 @@ Install via [npm](https://npmjs.com/) (together with [Gulp-Tape](https://github.
 $ npm install --save-dev tape-z gulp-tape tape
 ```
 
+## mad-props to:
+
+ - [Gulp-Tape](https://github.com/yuanqing/gulp-tape)
+ - [Tape](https://github.com/substack/tape)
+ - [Tap-min](https://github.com/gummesson/tap-min)
+
 ## License
 
 [MIT](LICENSE.md)
