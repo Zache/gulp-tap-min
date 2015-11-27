@@ -15,7 +15,7 @@ var reporter = require('gulp-tap-min');
 gulp.task('test', function() {
   return gulp.src('test/*.js')
     .pipe(tape({
-      reporter(),
+      reporter: reporter(),
       tapeOpts: { objectMode: true }
     }));
 });
