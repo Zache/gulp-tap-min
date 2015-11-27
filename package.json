@@ -1,0 +1,40 @@
+{
+  "name": "tape-z",
+  "version": "0.0.1",
+  "description": "A Tap-reporter meant to be used with tape and gulp-tape",
+  "main": "index.js",
+  "author": "Zacharias Björngren",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Zache/tape-z.git"
+  },
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "through2": "^2.0.0"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "lint": "jshint --verbose index.js && jscs --verbose index.js"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-tape": ">=0.0.6",
+    "jscs": "^2.6.0",
+    "jshint": "^2.8.0",
+    "tape": "^4.2.2"
+  },
+  "keywords": [
+    "tap",
+    "color",
+    "test",
+    "testanything",
+    "protocol",
+    "pretty",
+    "testing",
+    "tape",
+    "gulp-tape",
+    "tap-min",
+    "tap"
+  ]
+}
