@@ -1,4 +1,4 @@
-# tape-z
+# Gulp-Tap-Min [![Build Status](https://img.shields.io/travis/Zache/gulp-tap-min.svg?style=flat-square)](https://travis-ci.org/Zache/gulp-tap-min)
 
 A TAP reporter intended to be used together with [Gulp-Tape](https://github.com/yuanqing/gulp-tape)(min version 0.0.6) and [Tape](https://github.com/substack/tape).
 
@@ -9,7 +9,7 @@ A TAP reporter intended to be used together with [Gulp-Tape](https://github.com/
 
 var gulp = require('gulp');
 var tape = require('gulp-tape');
-var reporter = require('tape-z');
+var reporter = require('gulp-tap-min');
 
 gulp.task('test', function() {
   return gulp.src('test/*.js')
@@ -36,7 +36,7 @@ For tape-z to work properly you need to pass `tapeOpts: { objectMode: true }` to
 Install via [npm](https://npmjs.com/) (together with [Gulp-Tape](https://github.com/yuanqing/gulp-tape) and [Tape](https://github.com/substack/tape)):
 
 ```
-$ npm install --save-dev tape-z gulp-tape tape
+$ npm install --save-dev gulp-tap-min gulp-tape tape
 ```
 
 ## mad-props to:
