@@ -1,5 +1,5 @@
 {
-  "name": "tape-z",
+  "name": "gulp-tap-min",
   "version": "0.0.1",
   "description": "A Tap-reporter meant to be used with tape and gulp-tape",
   "main": "index.js",
@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Zache/tape-z.git"
+    "url": "git://github.com/Zache/gulp-tap-min.git"
   },
   "dependencies": {
     "chalk": "^1.1.1",

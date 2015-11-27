@@ -45,7 +45,7 @@ function report(out, verbose, test) {
 	});
 }
 
-var tapez = function(opts) {
+module.exports = function(opts) {
 	opts = opts || {};
 	var verbose = opts.verbose || false;
 
@@ -109,5 +109,3 @@ var tapez = function(opts) {
 
 	return through.obj(transform, flush);
 };
-
-module.exports = tapez;
