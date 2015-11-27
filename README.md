@@ -23,7 +23,7 @@ gulp.task('test', function() {
 
 ### tape([opts]) 
 
-For tape-z to work properly you need to pass `tapeOpts: { objectMode: true }` to [Gulp-Tape](https://github.com/yuanqing/gulp-tape).
+For gulp-tap-min to work properly you need to pass `tapeOpts: { objectMode: true }` to [Gulp-Tape](https://github.com/yuanqing/gulp-tape).
 
 ### reporter([opts])
 
