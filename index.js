@@ -1,5 +1,6 @@
 var through = require('through2'),
-	chalk = require('chalk');
+	chalk = require('chalk'),
+	inspect = require('object-inspect');
 
 var skipped = [
 	'skip',
@@ -38,7 +39,7 @@ function report(out, verbose, test) {
 			return skipped.indexOf(key) === -1;
 		})
 		.forEach(function(key) {
-			format(out, '	', chalk.gray(key + ':'), chalk.white(assert[key]));
+			format(out, '	', chalk.gray(key + ':'), chalk.white(inspect(assert[key])));
 		});
 
 		format(out, '	...');

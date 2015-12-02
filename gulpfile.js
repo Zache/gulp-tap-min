@@ -9,3 +9,11 @@ gulp.task('test', function () {
 		tapeOpts: { objectMode: true }
 	}));
 });
+
+gulp.task('test-verbose', function () {
+	return gulp.src('test/*.js')
+	.pipe(tape({
+		reporter: tapez({ verbose: true }),
+		tapeOpts: { objectMode: true }
+	}));
+});
