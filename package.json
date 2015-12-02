@@ -1,6 +1,6 @@
 {
   "name": "gulp-tap-min",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Tap-reporter meant to be used with tape and gulp-tape",
   "main": "index.js",
   "author": "Zacharias Björngren",
